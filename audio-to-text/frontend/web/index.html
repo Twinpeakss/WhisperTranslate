@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Audio to Text</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Audio to Text Transcription</h1>
+        <input type="file" id="audioFile" accept="audio/*">
+        <button id="transcribeButton">Transcribe</button>
+        <div id="loading" class="hidden">Transcribing...</div>
+        <textarea id="transcriptionResult" rows="10" cols="50" placeholder="Transcription result will appear here..."></textarea>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
